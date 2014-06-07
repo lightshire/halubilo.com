@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='description' content='Halubilo.Com is an open-source job-finding software that would help employers and employees find their partners through social media' />
     <title>Halubilo | Job Finder</title>
     <link rel='stylesheet' href='/bower_components/fontawesome/css/font-awesome.css' />
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>

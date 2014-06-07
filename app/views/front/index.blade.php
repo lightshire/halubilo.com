@@ -3,7 +3,7 @@
 @section('content')
 	<div class='header'>
 		<h1 class='front-liner'>HALUBILO</h1>
-		<h3 class='sub-title'>Job Finding, Never Better</h3>
+		<!-- <h3 class='sub-title'>Job Finding, Never Better</h3> -->
 	</div>
 	<div class='sub-header'>
 		<div class='content'>
