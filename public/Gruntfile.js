@@ -14,6 +14,7 @@
               './bower_components/jquery/jquery.js',
               './bower_components/bootstrap/dist/js/bootstrap.js',
               './bower_components/jquery-backstretch/src/jquery.backstretch.js',
+              './bower_components/jquery.nicescroll/jquery.nicescroll.js',
               './app/assets/javascript/frontend.js'
             ],
             dest: './assets/javascript/frontend.js'
