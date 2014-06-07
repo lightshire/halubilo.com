@@ -1,0 +1,6 @@
+{
+  "name": "Halubilo.Com",
+  "dependencies": {
+    "bootstrap": "~3.1.1"
+  }
+}

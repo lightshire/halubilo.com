@@ -1,0 +1,95 @@
+@import 'base.less';
+.header {
+	.front-liner {
+		color: @front-heavy;
+		text-align: center;
+		font-family: @font-family-front;
+		font-size: @front-liner-size;
+		.text-shadow(2px 3px 3px #000);
+		font-weight: 300;
+	}
+
+	.sub-title {
+		color: @front-heavy;
+		text-align: center;
+		font-family: @font-family-sub;
+		font-size: @front-sub-size;
+		.text-shadow(2px 3px 3px #568D30);
+	}
+}
+
+.sub-header{
+	.container-fixed();
+	// box-shadow: 2px 3px 5px #000;
+	.content {
+		background: #FFF;
+		padding: 40px;
+		.make-row();
+		.clearfix();
+		.form-submit {
+			font-family: @font-family-front;
+			text-transform: uppercase;
+			.center-block();
+			.make-md-column(5);
+			.button-variant(#FFF; darken(@front-base-color, 5%); @front-base-color);
+			.button-size(20px, 20px, @front-sub-size, @front-sub-size, 10px);
+		}
+
+		.mid-span {
+			.make-md-column(2);
+			text-align: center;
+			font-family: @font-family-front;
+			font-size: 64px;
+			font-weight: 300;
+			color: darken(@front-base-color, 5%);
+		}
+		h3 {
+			color: darken(@front-base-color, 5%);
+			font-family: @font-family-front;
+			font-size: @font-size-h3;
+			text-transform: uppercase;
+			.make-md-column(12);
+			text-align: center;
+		}
+	}
+}
+
+.panels {
+	.container-fixed();
+
+	.description { 
+		background: #000;
+		padding: 40px;
+		min-height: 200px;
+		color: #FFF;
+		font-family: @font-family-front;
+		.make-row();
+
+		.how-it-works {
+			.make-md-column(3);
+			text-align: center;
+
+			.picture {
+				font-size: 40px;
+				.transition(all .2s ease-in);
+
+			}
+			.picture:hover {
+				color: darken(@front-base-color, 5%);
+			}
+
+			h3, p {
+				font-weight: 300;
+			}
+		} 
+
+		h3 {
+			.make-md-column(12);
+			text-align: center;
+			text-transform: uppercase;
+			font-size: 40px;
+			margin: 40px auto;
+		}
+	}
+}
+
