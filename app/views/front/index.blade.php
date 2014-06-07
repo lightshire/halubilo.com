@@ -66,4 +66,74 @@
 			</div>
 		</div>
 	</div>
-@stop
+	<div class='panels'>
+		<div class='partners'>
+			<h3>Developed &amp; Partnered By</h3>
+			<div class='partner'>
+				<img class='img-circle img-responsive img-thumbnail' src='http://graph.facebook.com/gian.corleone.ph/picture/?width=256&height=256'/>
+				<h3>Sith Lord<br />Programmer</h3>
+				<a href='#'>
+					<span class='fa fa-facebook-square'></span>
+				</a>
+				<a href='#'>
+					<span class='fa fa-github-square'></span>
+				</a>
+				<a href='#'>
+					<span class='fa fa-twitter-square'></span>
+				</a>
+				<a href='#'>
+					<span class='fa fa-linkedin-square'></span>
+				</a>
+			</div>
+			<div class='partner'>
+				<img class='img-circle img-responsive img-thumbnail' src='http://graph.facebook.com/SourceScript/picture/?width=256&height=256'/>
+				<h3>SourceScript Innovatons</h3>
+				<a href='#'>
+					<span class='fa fa-facebook-square'></span>
+				</a>
+				<a href='#'>
+					<span class='fa fa-github-square'></span>
+				</a>
+				<a href='#'>
+					<span class='fa fa-twitter-square'></span>
+				</a>
+				<a href='#'>
+					<span class='fa fa-linkedin-square'></span>
+				</a>
+			</div>
+			<div class='partner'>
+				<img class='img-circle img-responsive img-thumbnail' src='http://graph.facebook.com/LinkageWebDevelopment/picture/?width=256&height=256'/>
+				<h3>Linkage Web Development</h3>
+				<a href='#'>
+					<span class='fa fa-facebook-square'></span>
+				</a>
+				<a href='#'>
+					<span class='fa fa-github-square'></span>
+				</a>
+				<a href='#'>
+					<span class='fa fa-twitter-square'></span>
+				</a>
+				<a href='#'>
+					<span class='fa fa-linkedin-square'></span>
+				</a>	
+			</div>
+			<div class='partner'>
+				<img class='img-circle img-responsive img-thumbnail' src='http://graph.facebook.com/MentorsDojo/picture/?width=256&height=256'/>
+				<h3>MentorsDojo <br /> Academy</h3>
+				<a href='#'>
+					<span class='fa fa-facebook-square'></span>
+				</a>
+				<a href='#'>
+					<span class='fa fa-github-square'></span>
+				</a>
+				<a href='#'>
+					<span class='fa fa-twitter-square'></span>
+				</a>
+				<a href='#'>
+					<span class='fa fa-linkedin-square'></span>
+				</a>
+			</div>
+			
+		</div>
+	</div>
+@stop 
