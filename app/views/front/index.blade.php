@@ -8,10 +8,38 @@
 	<div class='sub-header'>
 		<div class='content'>
 			<h3>What Are you Looking For</h3>
-			<button class='btn form-submit'>JOB</button>
+			<button class='btn form-submit' data-role='toggle-form' data-target='.job-form'>JOB</button>
 			<span class='mid-span'>OR</span>
-			<button class='btn form-submit'>PARTNER</button>'
+			<button class='btn form-submit' data-role='toggle-form' data-target='.partner-form'>PARTNER</button>
+			<div class='job-form' style='display: none;'>
+				<form action='#'>
+					<h3>Create Your Account Now</h3>
+					<div class='form-group'>
+						<input type='text' class='form-control' placeholder='you@you.me'/>
+					</div>
+					<div class='form-group'>
+						<input type='password' class='form-control' placeholder='Enter your favorite password' />
+					</div>
+					<div class='form-group'>
+						<button class='btn form-submit btn-block' type='submit'>
+							Register
+						</button>
+					</div>	
+				</form>
+				<div class='share-btns'>
+					<button class='btn btn-facebook btn-block'>
+						<span class='fa fa-facebook'></span> | Login W/ Facebook
+					</button>
+					<button class='btn btn-linkedin btn-block'>
+						<span class='fa fa-linkedin'></span> | Login W/ LinkedIn
+					</button>
+					<button class='btn btn-twitter btn-block'>
+						<span class='fa fa-twitter'></span> | Login W/ Twitter
+					</button>
+				</div>
+			</div>
 		</div>
+
 	</div>
 	<div class='panels'>
 		<div class='description'>

@@ -15178,4 +15178,10 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   
 }));
   ;$.backstretch("/assets/images/front/bg.jpg");
- $("html").niceScroll();  
+$("html").niceScroll();  
+
+$("[data-role='toggle-form']").on('click', function(e) {
+	e.preventDefault();
+	var target = $(this).data('target');
+	$(target).fadeIn();
+});
